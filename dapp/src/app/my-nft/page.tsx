@@ -94,7 +94,7 @@ const MyNft: NextPage = () => {
       </div>
       <div className="mt-8">
         {tokenIds?.length === 0
-          ? "내 다덴부가 없습니다. '민팅하기'에서 나만의 다덴부를 획득하세요!"
+          ? "내 NFT가 없습니다. '민팅하기'에서 나만의 NTF를 획득하세요!"
           : tokenIds?.reverse().map((v, i) => {
               return <MyNftCard index={i} tokenId={v} />;
             })}

@@ -31,7 +31,7 @@ const SaleNft: NextPage = () => {
   return (
     <div className="px-8 pt-16">
       {onSaleNft?.length === 0
-        ? "현재 판매중인 다덴부가 없습니다."
+        ? "현재 판매중인 NFT가 없습니다."
         : onSaleNft?.reverse().map((v, i) => {
             return (
               <SaleNftCard

@@ -39,7 +39,7 @@ const Mint: NextPage = () => {
   return (
     <div className="px-8 pt-16">
       <div className="flex items-center">
-        지금 바로 나만의 다덴부를 획득해 보세요
+        NFT 얻기
         {account ? (
           <button className="btn-style ml-2 font-bold" onClick={onClickMint}>
             민팅하기
@@ -62,7 +62,7 @@ const Mint: NextPage = () => {
         {isLoading && <div>로딩중입니다...</div>}
         {tokenId && (
           <div>
-            <div>새로운 다덴부를 획득했습니다!!!</div>
+            <div>새로운 NFT 획득!</div>
             <NftCard tokenId={tokenId} />
           </div>
         )}
